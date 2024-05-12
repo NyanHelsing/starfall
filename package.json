@@ -6,8 +6,8 @@
   "scripts": {
     "open": "playwright open",
     "dev": "playwright test --ui",
-    "abp:block": "playwright test --headed --project block",
-    "abp:auth": "playwright test --headed --project setup"
+    "starfall:block": "playwright test --headed --project block",
+    "starfall:auth": "playwright test --headed --project setup"
   },
   "keywords": [],
   "author": "",
