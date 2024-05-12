@@ -1,3 +1,4 @@
+import someOtherBlockList from "./other-list/bl0.mjs";
 export default [
   "bobby_flay_",
   "espn",
@@ -239,5 +240,6 @@ export default [
   "khloékardashian",
   "kimkardashian",
   "kyliejenner",
-  "kendalljenner"
+  "kendalljenner",
+  ...someOtherBlockList
 ]
