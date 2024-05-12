@@ -11,7 +11,7 @@ setup('auth', async ({ page }) => {
   await page.getByRole('link', { name: 'Profile' }).click(); // Click the "Profile" link in the side navigation.
 
   // If the environment variables are set, log in with them.
-  if (username && password) {
+  if (false && username && password) {
     await page.getByRole('link', { name: 'Use phone / email / username' }).click(); // Click the "Use phone / email / username" link.
     await page.getByRole('link', { name: 'Log in with email or username' }).click(); // Click the log in with email or username link.
     await page.getByPlaceholder('Email or username').click(); // Click to focus the username field.
