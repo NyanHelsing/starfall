@@ -1,0 +1,19 @@
+{
+  "name": "blockparty-e2e",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "open": "playwright open",
+    "dev": "playwright test --ui",
+    "abp:block": "playwright test --headed --project block",
+    "abp:auth": "playwright test --headed --project setup"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@playwright/test": "^1.44.0",
+    "dotenv": "^16.4.5"
+  }
+}
