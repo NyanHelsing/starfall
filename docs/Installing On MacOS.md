@@ -114,6 +114,8 @@ git clone git@github.com:NyanHelsing/starfall.git
 Now that the repository is cloned, the source code is on your machine. You can navigate to the repository in the terminal.
 
 ```
+cd starfall
+```
 
 ## Installing Starfall Node Dependencies
 
