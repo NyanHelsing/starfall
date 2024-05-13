@@ -7,6 +7,7 @@
     "open": "playwright open",
     "dev": "playwright test --ui",
     "gen": "playwright codegen https://tiktok.com",
+    "starfall": "pnpm run starfall:auth && pnpm run starfall:block && pnpm run starfall:follow",
     "starfall:auth": "playwright test --headed --project setup",
     "starfall:block": "playwright test --headed --project block",
     "starfall:follow": "playwright test --headed --project follow",
