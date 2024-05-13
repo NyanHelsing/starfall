@@ -15,11 +15,17 @@ export default [
   "reversecanarymission",
   "decolonizationcoven",
   "saint.stereo.1",
+  "the_inconvenient_truth88",
+  "anti_mia_",
   "crissaexplainsnothing",
   "cosplayaye",
   "palestinenewzzznetwork",
   "andr3wsky",
   "wolpalestine",
   "jwilliamj",
-  "erva.61l"
+  "erva.61l",
+  "mayuhnaise",
+  "sanfranica",
+  "jenan.matari",
+
 ];
