@@ -1,5 +1,11 @@
 export default [
   "clippps5",
   "decolonizationcoven",
-  "wambuilauryn"
+  "wambuilauryn",
+  "theartistmedia",
+  "xoharlowheart",
+  "congofriends",
+  "pappyorion",
+  "juicebae",
+  "focuscongo"
 ]
