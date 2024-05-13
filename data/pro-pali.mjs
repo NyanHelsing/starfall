@@ -18,5 +18,8 @@ export default [
   "crissaexplainsnothing",
   "cosplayaye",
   "palestinenewzzznetwork",
-  "andr3wsky"
+  "andr3wsky",
+  "wolpalestine",
+  "jwilliamj",
+  "erva.61l"
 ];

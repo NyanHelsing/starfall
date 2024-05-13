@@ -11,6 +11,7 @@
     "starfall:auth": "playwright test --headed --project setup",
     "starfall:block": "playwright test --headed --project block",
     "starfall:follow": "playwright test --headed --project follow",
+    "starfall:follow:congo": "SCOPE=tankies playwright test --headed --project follow",
     "starfall:follow:congo": "SCOPE=congo playwright test --headed --project follow",
     "starfall:follow:pali": "SCOPE=pali playwright test --headed --project follow",
     "starfall:follow:c19": "SCOPE=c19 playwright test --headed --project follow",

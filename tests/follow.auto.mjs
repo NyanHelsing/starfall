@@ -7,13 +7,15 @@ const followList = [...(new Map([
       (await import("../data/pro-pali.mjs")).default,
       (await import("../data/congo-aware.mjs")).default,
       (await import("../data/covid-conscious.mjs")).default,
-      (await import("../data/block-party.mjs")).default
+      (await import("../data/block-party.mjs")).default,
+      (await import("../data/tankies.mjs")).default
     ])).flat()
   ])],
   ["pali", new Set((await import("../data/pro-pali.mjs")).default)],
   ["congo", new Set((await import("../data/congo-aware.mjs")).default)],
   ["c19", new Set((await import("../data/covid-conscious.mjs")).default)],
-  ["bp", new Set((await import("../data/block-party.mjs")).default)]
+  ["bp", new Set((await import("../data/block-party.mjs")).default)],
+  ["tankies", new Set((await import("../data/tankies.mjs")).default)]
 ]).get(process.env.SCOPE))];
 
 console.log(followList);
