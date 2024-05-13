@@ -18,6 +18,8 @@ export default [
   "the_inconvenient_truth88",
   "anti_mia_",
   "wallyrashid",
+  "icedvanillatriplelatte",
+  "ladybluecr0w",
   "crissaexplainsnothing",
   "cosplayaye",
   "palestinenewzzznetwork",
