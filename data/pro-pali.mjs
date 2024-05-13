@@ -18,6 +18,5 @@ export default [
   "crissaexplainsnothing",
   "cosplayaye",
   "palestinenewzzznetwork",
-  "finnirish",
   "andr3wsky"
 ];
