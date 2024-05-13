@@ -33,6 +33,16 @@ export default defineConfig({
       },
       //dependencies: ["setup"],
     },
+    {
+      name: 'follow',
+      testMatch: /follow\.auto\.mjs/,
+      use: {
+        ...devices['Desktop Chrome'],
+        // Use prepared auth state.
+        storageState: 'playwright/.auth/user.json',
+      },
+      //dependencies: ["setup"],
+    },
   ],
 
 });

@@ -6,8 +6,14 @@
   "scripts": {
     "open": "playwright open",
     "dev": "playwright test --ui",
+    "gen": "playwright codegen https://tiktok.com",
+    "starfall:auth": "playwright test --headed --project setup",
     "starfall:block": "playwright test --headed --project block",
-    "starfall:auth": "playwright test --headed --project setup"
+    "starfall:follow": "playwright test --headed --project follow",
+    "starfall:follow:congo": "SCOPE=congo playwright test --headed --project follow",
+    "starfall:follow:pali": "SCOPE=pali playwright test --headed --project follow",
+    "starfall:follow:c19": "SCOPE=c19 playwright test --headed --project follow",
+    "starfall:follow:dgtn": "scope=dgtn playwright test --headed --project follow"
   },
   "keywords": [],
   "author": "",
