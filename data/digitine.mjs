@@ -123,6 +123,7 @@ export default [
   "jlo",
   "brunomars",
   "hshq",
+  "monicasopenhouse", // Silent influencer
   "billieeilish",
   "ajannakos",
   "davidbeckham",
