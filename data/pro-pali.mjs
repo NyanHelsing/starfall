@@ -28,5 +28,6 @@ export default [
   "mayuhnaise",
   "sanfranica",
   "jenan.matari",
-
+  "xoharlowheart",
+  "palestinianpr1ncess"
 ];
