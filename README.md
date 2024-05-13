@@ -2,6 +2,10 @@
 
 This repository contains a script that can be used to block users on TikTok. The script uses the TikTok web interface to block users. The script uses the Playwright library to automate the browser interactions.
 
+## [See it in action]( https://www.tiktok.com/@nyanhelsing/video/7368043327578590507)
+
+## [How it works]( https://www.tiktok.com/@nyanhelsing/video/7368196079432650027)
+
 ## Quick Start
 
 > The Quick Start section lists the basic steps to get started with the project for folks familiar with these tools. If these steps don't have enough detail, consider reading the [INSTALLATION.md](./INSTALLATION.md) file, which provides a more detailed explanation of the steps to install the project.

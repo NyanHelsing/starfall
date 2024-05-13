@@ -17,6 +17,7 @@ export default [
   "saint.stereo.1",
   "the_inconvenient_truth88",
   "anti_mia_",
+  "wallyrashid",
   "crissaexplainsnothing",
   "cosplayaye",
   "palestinenewzzznetwork",
