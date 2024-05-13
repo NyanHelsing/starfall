@@ -21,6 +21,7 @@ export default [
   "icedvanillatriplelatte",
   "ladybluecr0w",
   "crissaexplainsnothing",
+  "anhthehumanist",
   "cosplayaye",
   "palestinenewzzznetwork",
   "andr3wsky",
