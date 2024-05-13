@@ -1,10 +1,8 @@
 import { test as auto, expect, selectors } from '@playwright/test';
 
-import bl from "../data/bl.mjs";
+import digitineList from "../data/digitine.mjs";
 
-selectors.setTestIdAttribute('data-e2e');
-
-bl.forEach((username) => {
+digitineList.forEach((username) => {
   auto(`blocking ${username}`, async ({ page }) => {
     await page.goto(`https://www.tiktok.com/@${username}`); // Go to the profile of the user who is to be blocked.
     // TODO: check if the user is already blocked
