@@ -23,6 +23,7 @@ export default [
   "crissaexplainsnothing",
   "anhthehumanist",
   "ykhong",
+  "bean_on_a_bike",
   "cosplayaye",
   "palestinenewzzznetwork",
   "andr3wsky",
