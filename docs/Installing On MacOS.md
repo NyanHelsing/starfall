@@ -130,33 +130,3 @@ if this is the first time you have installed Playwright, you may need to install
 ```
 pnpm exec playwright install
 ```
-
-## Running Starfall
-
-Congratulations! You have installed all the dependencies for Starfall. You can now run the automation scripts.
-
-### Running the Authentication Script
-
-This will open a browser window and prompt you to log in to TikTok. Once you have logged in, the script will save browser state that will be used by the other Starfall scripts.
-
-> ** IMPORTANT **: The recommended way to log in is with a TikTok account; using a tiktok username and password. (Not phone number or email).
-
-Using the text editor, copy the `example.env` file to a new file called `.env`, and fill in the `TIKTOK_USERNAME` and `TIKTOK_PASSWORD` fields with your TikTok username and password.
-
-It is possible to log in without the `.env` file, but you must log in manually, select the "login with username / email / password" option, and then click the "Login with email or username" button. Use your tiktok *username* and password to log in; (the email and phone number options are not recommended).
-
-The QR Code login option is not recommended, it seems like TikTok disables it for browsers using automation. Google and Facebook also seem to detect that the browser is being automated, and will not allow you to log in using those methods.
-
-```
-pnpm run starfall:auth
-```
-
-It should not be neccesary to rerun the authentication script unless you log out of TikTok, or if the browser state is lost.
-
-### Running the Block List
-
-This script will block all the users in the `./data/bl.mjs` file. The blocklist is a list of TikTok usernames, one per line. For each username, the script will open the browser, block that user, and then close the browser, repeating until all the users in the blocklist are blocked.
-
-```
-pnpm run starfall:block
-```
