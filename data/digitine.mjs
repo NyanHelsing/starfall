@@ -1,5 +1,6 @@
 export default [
   "bobby_flay_",
+  "billmaher",
   "espn",
   "kekepalmer",
   "judeanceo",
