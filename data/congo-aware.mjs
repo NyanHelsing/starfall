@@ -8,5 +8,6 @@ export default [
   "kenzie_haha_1",
   "pappyorion",
   "juicebae",
-  "focuscongo"
+  "focuscongo",
+  "popi_sibiya"
 ]
