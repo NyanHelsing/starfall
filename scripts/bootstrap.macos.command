@@ -64,10 +64,19 @@ export NVM_DIR="$HOME/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
 [ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
 
+# and pnpm, a package manager that has better dependency resolution.
+corepack add pnpm
+corepack use pnpm@latest
+
 # Clone the project to tmp directory so we can launch the browser to automate account creation etc.
 rm -rf /tmp/starfall
 cd /tmp/ && git clone https://github.com/NyanHelsing/starfall.git
 cd starfall
+
+
+# Install and use node 20
+nvm install 20
+nvm use 20
 
 # AppleScript command to show a Yes/No modal dialog
 HAS_GITHUB_ACCOUNT_RESPONSE=$(osascript <<EOF
